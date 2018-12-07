@@ -1,0 +1,5 @@
+D:\Usuarios\soportev\Downloads\Proyectos VS\WebService\WebService\WebService\bin\WebService.dll
+D:\Usuarios\soportev\Downloads\Proyectos VS\WebService\WebService\WebService\bin\WebService.pdb
+D:\Usuarios\soportev\Downloads\Proyectos VS\WebService\WebService\WebService\obj\Debug\ResolveAssemblyReference.cache
+D:\Usuarios\soportev\Downloads\Proyectos VS\WebService\WebService\WebService\obj\Debug\WebService.dll
+D:\Usuarios\soportev\Downloads\Proyectos VS\WebService\WebService\WebService\obj\Debug\WebService.pdb

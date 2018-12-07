@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">RelojC ServiuV</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="action_example">Salir</string>
+    <string name="action_settings">Opciones</string>
+
+    <!-- Array para agregar los iconos -->
+    <string-array name="section_iconos">
+        <item>@drawable/ic_action_action_alarm_on</item>
+        <item>@drawable/ic_action_av_my_library_music</item>
+        <item>@drawable/ic_action_action_settings</item>
+    </string-array>
+       
+    <!-- Array para los titulos -->
+    <string-array name="section_titulos">
+        <item>Reloj Control</item>
+        <item>Alarma Manual</item>
+        <item>Configuración</item>
+    </string-array>
+
+    <string-array name="sections">
+        <item>Reloj Control</item>
+        <item>Alarma Manual</item>
+        <item>Configuración</item>
+    </string-array>
+    <string name="title_activity_mostrar_reloj">MostrarReloj</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- ACTION BAR -->
+    <string name="action_opciones">Opciones</string>
+    <string name="action_salir">Salir</string>
+
+    <!-- String para tabReloj -->
+    <string name="tabReloj_titulo">Reloj Control Serviu Valparaíso</string>
+    <string name="tabReloj_rutTitulo">Rut ingresado:</string>
+    <string name="tabReloj_rutHint">Ej:12345678</string>
+    <string name="tabReloj_avisoRut">Aviso: sin puntos ni dígito verificador</string>
+    <string name="tabReloj_boton">Consultar</string>
+    <string name="title_activity_muestra_reloj">MuestraReloj</string>
+    <string name="tabReloj_fechaInicio">Desde</string>
+    <string name="tabReloj_fechaTermino">Hasta</string>
+    <string name="tabReloj_botonC">Cambiar</string>
+    <string name="tabReloj_tramo">Tramo de fechas</string>
+
+    <!-- Strings para MuestraReloj -->
+    <string name="muestraReloj_titulo">Registro De Marcaciones</string>
+    <string name="muestraReloj_nombreP">Nombre: </string>
+    <string name="muestraReloj_rutP">Rut: </string>
+    <string name="muestraReloj_fechaTitulo">Fechas</string>
+    <string name="muestraReloj_botonV">Volver</string>
+    <string name="muestraReloj_titFecha">Fecha</string>
+    <string name="muestraReloj_titHora">Hora</string>
+    <string name="muestraReloj_titMarcacion">Marcación</string>
+
+    <!-- Strings para mensajes -->
+    <string name ="quit">Salir de Reloj Control</string>
+    <string name="really_quit">¿Realmente desea salir?</string>
+    <string name="alarma_cancTitulo">Alarma Serviu Reloj Control</string>
+    <string name="alarma_cancConten">¿Realmente desea cancelar la alarma?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+
+    <!-- String para la vista de las alarmas -->
+    <string name="alarma_botonSetHora">Cambiar</string>
+    <string name="alarma_botonActualizar">Actualizar</string>
+    <string name="alarma_tituloHora">Entrada Reloj:</string>
+    <string name="alarma_botonSetAlarma">Activar Alarma</string>
+    <string name="alarma_botonResetearAlarma">Desactivar</string>
+    <string name="alarma_horaDefecto">HOR</string>
+    <string name="alarma_minDefecto">MIN</string>
+    <string name="alarma_titHoras">HR</string>
+    <string name="alarma_cancelarAlarma">¿Realmente desea cancelar alarma?</string>
+    <string name="alarma_salidaEstimada">Salida estimada:</string>
+    <string name="alarma_avisarSalir">Avisar antes de salir:</string>
+    <string name="alarma_diaTitulo">Dia Actual:</string>
+
+    <!-- Radio buttons de la vista de las alarmas -->
+    <string name="alarma_radio5">5 Minutos</string>
+    <string name="alarma_radio10">10 Minutos</string>
+    <string name="alarma_radio30">30 Minutos</string>
+    <string name="alarma_radioHora">60 Minutos</string>
+
+    <!-- Radios para preguntar por la jornada -->
+    <string name="alarma_jornada9">Jornada Lunes a Jueves, 9 Horas</string>
+    <string name="alarma_jornada8">Jornada Viernes, 8 Horas</string>
+
+    <!-- El popup inicial -->
+    <string name="popup_titulo_inicial">Android Reloj Control Serviu V</string>
+    <string name="popup_intro">Controle, revise y planifique sus marcaciones en el servicio</string>
+    <string name="popup_mensaje">Para comenzar, Ingrese su Rut</string>
+
+    <!-- La configuración -->
+    <string name="config_rut_titulo">Rut ingresado:</string>
+    <string name="config_botonCambiarRut">Cambiar Rut Usuario</string>
+    <string name="config_guardarCambios">Guardar Cambios</string>
+    <string name="config_SincroAutoTitulo">Alarma Automatica:</string>
+    <string name="config_activada">Activa</string>
+    <string name="config_cambiarRut">Ingrese nuevo Rut</string>
+    <string name="config_tituCambiarRut">Cambiar Rut Reloj Control</string>
+    <string name="config_resetMensajes">Mensajes de Ayuda</string>
+    <string name="config_resetear">Resetear</string>
+    <string name="config_popupResetear">¿Reestablecer mensajes de ayuda?</string>
+    <string name="config_notificacion">Avisos de Error en Sync</string>
+
+    <!-- POPUP Para consultar por si desea activar la alarma automática -->
+    <string name="popup_alarmaTit">Alarma Automática</string>
+    <string name="popup_alarmaBody">La alarma automática cada día comprobará su horario de ingreso y configurará una alarma de aviso cuando su jornada termine (35min antes por defecto)</string>
+    <string name="popuo_alarmaAvisoAuto">Nota: La alarma se desactiva automáticamente el fin de semana</string>
+    <string name="popuo_alarmaAvisoAuto2">Si usted apaga o reinicia el celular deberá de volver a activar la alarma</string>
+    <string name="popup_alarmaAviso">Aviso: La Sincronización Funciona con Internet</string>
+
+    <!-- POPUP Desactivar las notificaciones -->
+    <string name="popup_Notftit">Mensajes Emergentes</string>
+    <string name="popup_NotBody">Esta opción le permite desactivar los mensajes de error en la cortina del teléfono en caso
+        de que la sincronización falle</string>
+    <string name="popup_NotBody2">Esta puede fallar al momento de sincronizarse(10:45AM) si se da el caso de que
+        usted no tenga conexión a internet o no haya registrado marcaciones</string>
+
+    <!-- POPUP alarma manual -->
+    <string name="popup_manualTit">Alarma manual</string>
+    <string name="popup_manualBody">La alarma manual le permitirá que la aplicación le avise determinado tiempo (ajustable)
+    antes de salir del servicio.</string>
+    <string name="popup_manualNotas">Nota: Si desea utilizar un servicio para toda la semana de alarma active la opción "Sincronización automática" en la pestaña Configuración</string>
+    <string name="popup_manualAviso">Aviso: Esta funcionalidad requiere conexión a internet.</string>
+
+</resources>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://valpodesarrollo/Camilo/" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="RelojWS" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="MSDeploy" replaceMatchingFiles="False" userName="soportev" savePWD="False" userPWD="" SelectedForPublish="False">
+    <file relUrl="bin/WebService.pdb" publishTime="03/04/2015 10:37:16" />
+    <file relUrl="RelojWS.asmx" publishTime="02/24/2015 13:03:21" />
+    <file relUrl="bin/WebService.dll" publishTime="03/04/2015 10:37:16" />
+    <file relUrl="Web.config" publishTime="02/24/2015 13:04:42" />
+  </publishProfile>
+  <publishProfile publishUrl="C:\inetpub\wwwroot\RelojWS" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="RelojsWS" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="Profile2" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/WebService.pdb" publishTime="03/25/2015 10:10:23" />
+    <file relUrl="RelojWS.asmx" publishTime="02/24/2015 13:03:21" />
+    <file relUrl="bin/WebService.dll" publishTime="03/25/2015 10:10:23" />
+    <file relUrl="Web.config" publishTime="03/09/2015 16:51:14" />
+  </publishProfile>
+</publishData>
